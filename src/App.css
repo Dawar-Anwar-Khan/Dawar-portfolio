@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    color: white;
+    font-family: "Cormorant", serif;
+    position: relative;
+}
+
+body{
+    background-color: rgb(23, 23, 23);
+}
