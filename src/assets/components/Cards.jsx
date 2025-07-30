@@ -1,3 +1,4 @@
+import { NavLink } from 'react-router'
 import image1 from '../images/image1.png'
 import image2 from '../images/image2.png'
 import image3 from '../images/image3.jpeg'
@@ -19,7 +20,7 @@ export default function Cards() {
         </div>
        </div>
        <div className='mt-20 text-center'>
-        <a className='border-gray-600 border p-4 rounded-full items-center' href="">View more projects&nbsp;&nbsp; →</a>
+        <NavLink className='border-gray-600 border p-4 rounded-full items-center' to="/work">View more projects&nbsp;&nbsp; →</NavLink>
        </div>
     </div>
    </section>
