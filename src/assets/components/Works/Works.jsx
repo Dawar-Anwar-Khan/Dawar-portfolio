@@ -1,8 +1,12 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import works from "./works";
 
 export default function Works() {
   const [onHover, setOnHover] = useState(null);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="w-[100%] mx-auto mb-32 mt-32">

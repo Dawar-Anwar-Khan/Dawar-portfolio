@@ -2,9 +2,9 @@ import React from "react";
 
 export default function Commentry() {
   return (
-    <section className="py-12">
-      <div className="w-[800px] mx-auto text-center ">
-        <p className="text-blue-100">
+    <section className="py-0 md:py-12">
+      <div className="max-w-3xl mx-auto text-center px-4">
+        <p className="text-blue-100 text-sm md:text-[17px] md:leading-6">
           <b>"Drawn to the invisible architecture behind the digital world",</b>
           &nbsp; My journey into technology began not with formal instruction,
           but with a quiet fascination. It started when I was just a kid, 
