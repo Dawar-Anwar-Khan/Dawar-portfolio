@@ -9,6 +9,7 @@ import './index.css'
 import App from './App.jsx'
 import Home from "./assets/components/Home.jsx";
 import Me from "./assets/components/Me.jsx";
+import Works from "./assets/components/Works.jsx";
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "/me",
         element: <Me />
+      },
+      {
+        path: "/works",
+        element: <Works />
       },
     ]
   },
