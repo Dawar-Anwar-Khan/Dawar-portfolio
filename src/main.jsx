@@ -9,7 +9,7 @@ import './index.css'
 import App from './App.jsx'
 import Home from "./assets/components/Home.jsx";
 import Me from "./assets/components/Me.jsx";
-import Works from "./assets/components/Works.jsx";
+import Works from "./assets/components/Works/Works";
 
 const router = createBrowserRouter([
   {
