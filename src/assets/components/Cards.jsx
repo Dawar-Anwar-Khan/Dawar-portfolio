@@ -5,10 +5,10 @@ import image3 from "../images/image3.jpeg";
 
 export default function Cards() {
   return (
-    <section className="py-12  max-w-2xl mx-auto">
+    <section className="py-12 px-9 lg:py-0 max-w-2xl mx-auto">
       <div className=" h-xl">
-        <div className="flex flex-col justify-center items-center md:flex-row">
-          <div className="h-56 md:h-72 w-72 bg-custom-gradient1  rounded-2xl md:-rotate-12 hover:scale-105 transition shadow-xl duration-300 hover:z-20 flex items-center justify-center overflow-hidden">
+        <div className="flex flex-col justify-center items-center lg:flex-row">
+          <div className="h-56 lg:h-72 w-full lg:w-72 bg-custom-gradient1  rounded-2xl lg:-rotate-12 hover:scale-105 transition shadow-xl duration-300 hover:z-20 flex items-center justify-center overflow-hidden">
             <a
               className="bg-custom-gradient1 "
               href="https://theshoecompany0.netlify.app/"
@@ -21,7 +21,7 @@ export default function Cards() {
               />
             </a>
           </div>
-          <div className="h-56 md:h-72 w-72 mt-6 md:mt-0 bg-custom-gradient2  rounded-2xl hover:scale-105 transition duration-300 shadow-xl z-10 flex items-center justify-center overflow-hidden">
+          <div className="h-56 lg:h-72 w-full lg:w-72 mt-6 lg:mt-0 bg-custom-gradient2  rounded-2xl hover:scale-105 transition duration-300 shadow-xl z-10 flex items-center justify-center overflow-hidden">
             <a
               className="bg-custom-gradient2"
               href="https://close-to-the-world-app.netlify.app/"
@@ -34,7 +34,7 @@ export default function Cards() {
               />
             </a>
           </div>
-          <div className="h-56 md:h-72 w-72 mt-6 md:mt-0 bg-custom-gradient3  rounded-2xl md:rotate-12 hover:scale-105 transition shadow-xl duration-300 hover:z-20 flex items-center justify-center overflow-hidden">
+          <div className="h-56 lg:h-72 w-full lg:w-72 mt-6 lg:mt-0 bg-custom-gradient3  rounded-2xl lg:rotate-12 hover:scale-105 transition shadow-xl duration-300 hover:z-20 flex items-center justify-center overflow-hidden">
             <a
               className="bg-custom-gradient3"
               href="https://quoteverse1.netlify.app/"
