@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <section className='py-8'>
+    <section>
       <div className='mx-auto max-w-2xl pt-36 flex flex-col justify-center items-center text-center md:w-1/2'>
         <h2 className='text-[36px] mb-9 font-bold md:text-[48px]'>Hey, I'm Dawar.</h2>
         <p className='text-blue-100 mb-6 text-[18px] md:text-[20px]'> Frontend Developer | BCA Student @ <a className='underline' href="https://www.jbcollege.in/">JBKP</a></p>
