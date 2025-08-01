@@ -9,9 +9,9 @@ export default function Works() {
   }, []);
 
   return (
-    <div className="w-[100%] mx-auto mb-32 mt-32">
+    <div className="max-w-4xl mx-auto mb-32 mt-32">
       <div className="mb-12">
-        <h1 className="text-center text-4xl font-bold font-garamond">
+        <h1 className="text-center text-3xl md:text-4xl font-bold font-garamond">
           Latest Projects & Activities
         </h1>
       </div>
@@ -21,7 +21,7 @@ export default function Works() {
         return (
           <div
             key={work.title}
-            className={`w-1/2 mx-auto rounded-lg border border-[#404040] p-3 bg-[#252525] mb-4 ${
+            className={` mx-6 rounded-lg border border-[#404040] p-3 bg-[#252525] mb-4 ${
               isHovered && "hover:mb-5 transition-all duration-3000"
             }`}
             onMouseEnter={(e) => {
@@ -62,6 +62,7 @@ export default function Works() {
                 Code
               </a>
             </div>
+            <div className="text-xs ml-3 mt-2 text-gray-500 transition-all duration-300 ease-in-out opacity-100 md:opacity-0 md:ml-0 md:mt-0">Tap to expand</div>
           </div>
         );
       })}
