@@ -5,7 +5,7 @@ import image3 from "../images/image3.jpeg";
 
 export default function Cards() {
   return (
-    <section className="py-12 px-9 lg:py-0 max-w-2xl mx-auto">
+    <section className="py-12 px-9 lg:py-0 max-w-4xl mx-auto">
       <div className=" h-xl">
         <div className="flex flex-col justify-center items-center lg:flex-row">
           <div className="h-56 lg:h-72 w-full lg:w-72 bg-custom-gradient1  rounded-2xl lg:-rotate-12 hover:scale-105 transition shadow-xl duration-300 hover:z-20 flex items-center justify-center overflow-hidden">

@@ -10,6 +10,7 @@ import App from './App.jsx'
 import Home from "./assets/components/Home.jsx";
 import Me from "./assets/components/Me.jsx";
 import Works from "./assets/components/Works/Works.jsx";
+import Gems from "./assets/components/Gems.jsx";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
       {
         path: "/works",
         element: <Works />
+      },
+      {
+        path: "/gems",
+        element: <Gems />
       },
     ]
   },

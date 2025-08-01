@@ -4,7 +4,7 @@ import { NavLink } from 'react-router'
 export default function Navbar() {
 
   const [isClicked, setIsClicked] = useState(false)
-  const [isOpen, setIsOpen] = useState(false)
+
   return (
    <>
     <div className={`mx-auto max-w-[50%] mb-12 sticky z-50 bottom-12 bg-transparent ${isClicked ? 'hidden' : ''}`}>
@@ -14,7 +14,8 @@ export default function Navbar() {
                 <NavLink className={({isActive}) => isActive ? 'shadow-[0_0_11px_rgba(255,255,255,0.5)] text-white border border-gray-600  bg-gray-600 rounded-2xl py-1 px-2' : ''} to="/me">mE</NavLink>
                 <NavLink className={({isActive}) => isActive ? 'shadow-[0_0_15px_rgba(255,255,255,0.5)] text-white border border-gray-600  bg-gray-600 rounded-2xl py-1 px-2' : ''} to="/works">Work</NavLink>
                 <NavLink className={({isActive}) => isActive ? 'shadow-[0_0_15px_rgba(255,255,255,0.5)] text-white border border-gray-600  bg-gray-600 rounded-2xl py-1 px-2' : ''} to="/Gems">Gems</NavLink>
-                <span id='li' className= 'hover:shadow-[0_0_15px_rgba(255,255,255,0.5)] text-gray-400 hover:text-white border-none hover:border hover:border-gray-600 hover:cursor-pointer hover:bg-[#424141] rounded-2xl py-1 px-2'>Email</span>
+                <span className= 'hover:shadow-[0_0_15px_rgba(255,255,255,0.5)] text-gray-400 hover:text-white border-none hover:border hover:border-gray-600 hover:cursor-pointer hover:bg-[#424141] rounded-2xl py-1 px-2' onClick={() => { alert('Text copied to clipboard!') 
+                  return navigator.clipboard.writeText('kdawar0101@gmail.com')}}>Email</span>
             </ul>
         </div>
         <div className={`rounded-full border bg-[rgba(64,64,64,0.6)] backdrop-blur-sm shadow-md border-b border-white/20 w-fit mx-auto py-3 px-6 text-xl lg:hidden hover:cursor-pointer ${isClicked ? 'hidden' : ''}`} onClick={() => {
