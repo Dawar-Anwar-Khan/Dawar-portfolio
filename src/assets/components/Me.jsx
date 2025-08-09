@@ -138,7 +138,7 @@ export default function Me() {
         <p className="text-lg text-gray-400 mb-6 ">
           I'm always interested in all kinds of opportunities or conversations.
         </p>
-        <div className="space-x-4">
+        <div className="md:space-x-4 flex justify-center flex-col gap-4 md:flex-row">
           <a
             href="mailto:kdawar0101@gmail.com"
             className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
