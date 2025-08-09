@@ -13,7 +13,7 @@ export default function Navbar() {
                 <NavLink className={({isActive}) => isActive ? 'shadow-[0_0_11px_rgba(255,255,255,0.5)] text-white border border-gray-600  bg-gray-600 rounded-2xl py-1 px-2' : ''} to="/">Home</NavLink>
                 <NavLink className={({isActive}) => isActive ? 'shadow-[0_0_15px_rgba(255,255,255,0.5)] text-white border border-gray-600  bg-gray-600 rounded-2xl py-1 px-2' : ''} to="/works">Work</NavLink>
                 <NavLink className={({isActive}) => isActive ? 'shadow-[0_0_11px_rgba(255,255,255,0.5)] text-white border border-gray-600  bg-gray-600 rounded-2xl py-1 px-2' : ''} to="/me">mE</NavLink>
-                <NavLink className={({isActive}) => isActive ? 'shadow-[0_0_15px_rgba(255,255,255,0.5)] text-white border border-gray-600  bg-gray-600 rounded-2xl py-1 px-2' : ''} to="/Gems">Gems</NavLink>
+                {/* <NavLink className={({isActive}) => isActive ? 'shadow-[0_0_15px_rgba(255,255,255,0.5)] text-white border border-gray-600  bg-gray-600 rounded-2xl py-1 px-2' : ''} to="/Gems">Gems</NavLink> */}
                 <span className= 'hover:shadow-[0_0_15px_rgba(255,255,255,0.5)] text-gray-400 hover:text-white border-none hover:border hover:border-gray-600 hover:cursor-pointer hover:bg-[#424141] rounded-2xl py-1 px-2' onClick={() => { alert('Text copied to clipboard!') 
                   return navigator.clipboard.writeText('kdawar0101@gmail.com')}}>Email</span>
             </ul>
