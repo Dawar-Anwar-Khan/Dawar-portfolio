@@ -25,7 +25,7 @@ export default function Navbar() {
         <NavLink className={`text-3xl`} onClick={() => setIsClicked(false)} to="/">Home</NavLink>
         <NavLink className={`text-3xl`} onClick={() => setIsClicked(false)} to="/works">Work</NavLink>
         <NavLink className={`text-3xl`} onClick={() => setIsClicked(false)} to="/me">mE</NavLink>
-        <NavLink className={`text-3xl`} onClick={() => setIsClicked(false)} to="/Gems">Gems</NavLink>
+        {/* <NavLink className={`text-3xl`} onClick={() => setIsClicked(false)} to="/Gems">Gems</NavLink> */}
         <span id='li' className={`text-3xl`} onClick={() => [navigator.clipboard.writeText('kdawar0101@gmail.com'), setIsClicked(false)]}>Email</span>
         <span className={`rounded-full border text-black bg-[#fff] shadow-md border-b border-white/20 py-3 px-6 text-xl lg:hidden hover:cursor-pointer`} onClick={() => {setIsClicked(false)}}>Close</span>
        </div>
