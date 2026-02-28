@@ -52,12 +52,16 @@ export default function Works() {
               <a
                 className="hover:shadow-[0_0_11px_rgba(255,255,255,0.5)] text-white border border-[#313131]  bg-[#313131] rounded-2xl py-1 px-2 text-sm"
                 href={work.link}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Live Demo
               </a>
               <a
                 className="hover:shadow-[0_0_11px_rgba(255,255,255,0.5)] text-white border border-[#313131]  bg-[#313131] rounded-2xl py-1 px-2 text-sm"
                 href={work.code}
+                target="_blank"
+                rel="noopener noreferrer"
               >
                 Code
               </a>

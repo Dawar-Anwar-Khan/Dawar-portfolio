@@ -9,7 +9,7 @@ export default function Me() {
           About Me
         </h1>
         <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto">
-          Hey I'm Dawar - Frontend Developer
+          Hey I'm Dawar - Full Stack Developer
         </p>
       </div>
 
@@ -18,7 +18,7 @@ export default function Me() {
         <h2 className="text-2xl md:text-3xl font-semibold mb-6">Who I Am</h2>
         <div className="prose prose-lg max-w-none">
           <p className="text-lg leading-relaxed mb-4">
-            Hi! I'm Dawar, a frontend Developer based in Delhi. I'm passionate
+            Hi! I'm Dawar, a full-stack developer based in Delhi. I build with Next.js, from backend systems to polished UI. I'm passionate
             about crafting ideas into reality and love creating things that are
             meaningful and can help me or the society.
           </p>
@@ -52,28 +52,30 @@ export default function Me() {
               began with HTML, CSS, and JavaScript, later expanding to React.js,
               TailwindCSS, and REST APIs. I’ve built projects like The Shoe
               Company and QuoteVerse, focusing on clean UI and user engagement.
-              My goal is to apply my frontend skills to impactful projects,
-              combining my technical expertise with purpose-driven work.
+              My goal is to apply my full-stack skills to impactful projects,
+              combining backend development, great UI design, and purpose-driven work.
             </p>
           </div>
 
           <div className="bg-[#252525] border-[#404040]  p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-3">Key Experiences</h3>
             <p className=" text-gray-400">
-              Key projects include QuoteVerse, a platform delivering daily
-              motivational Islamic quotes with Tafsir, and The Shoe Company, an
-              e-commerce-style frontend application. These experiences honed my
-              skills in responsive design, UI optimization, and integrating
-              APIs. Working on purpose-driven platforms reinforced a
-              disciplined, impact-oriented approach to development, where
-              functionality and user experience are equally prioritized.
+              Most recently built TaskForge, a full-stack HR management system
+              with employee provisioning, JWT-based authentication stored in
+              httpOnly cookies, role-based access control, and deployment on
+              Vercel with MongoDB Atlas. This project reflects production
+              thinking — not just working code, but secure, scalable architecture.
             </p>
           </div>
 
           <div className="bg-[#252525] border-[#404040] p-6 rounded-lg">
-            <h3 className="text-xl font-semibold mb-3">Currently Learning</h3>
+            <h3 className="text-xl font-semibold mb-3">Currently Building</h3>
             <p className=" text-gray-400">
-              I am currently focused on expanding my skill set by learning backend development, with the goal of becoming a full-stack developer. This includes gaining proficiency in Node.js, Express, and database management to complement my frontend expertise. I am particularly excited about building scalable, end-to-end applications and enhancing my ability to deliver complete solutions for real-world projects.
+              I'm focused on building production-grade full-stack applications
+              using Next.js App Router, MongoDB Atlas, and TypeScript. My recent
+              work includes an HR task management system with JWT authentication,
+              role-based access control, and Vercel deployment — the kind of
+              architecture used in real enterprise software.
             </p>
           </div>
         </div>
@@ -140,7 +142,9 @@ export default function Me() {
         </p>
         <div className="md:space-x-4 flex justify-center flex-col gap-4 md:flex-row">
           <a
-            href="mailto:kdawar0101@gmail.com"
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=kdawar0101@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors"
           >
             Get in Touch
