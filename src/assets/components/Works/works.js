@@ -2,8 +2,8 @@ export default [
     {
         title: "TaskForge",
         context: "A full-stack HR task management system built with Next.js, MongoDB Atlas, and TypeScript. Features JWT authentication stored in httpOnly cookies, role-based access control, and an enterprise-style employee provisioning flow — admins create employees, the system generates temporary passwords, and employees are forced to reset on first login. Deployed on Vercel with a live MongoDB Atlas database.",
-        link:"https://task-forge-ruby.vercel.app/",
-        code:"https://github.com/kdawar0101-code/TaskForge"
+        link:"https://taskforge-1.vercel.app/",
+        code:"https://github.com/Dawar-Anwar-Khan/Taskforge"
     },
     {
         title: "The Shopper App",
