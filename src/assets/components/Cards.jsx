@@ -14,7 +14,7 @@ const featuredProjects = [
   {
     title: "TaskForge",
     tagline: "HR task management · Next.js · MongoDB",
-    link: "https://task-forge-ruby.vercel.app/",
+    link: "https://taskforge-1.vercel.app/",
     image: taskforgeImg,
     gradient: "bg-gradient-to-b from-slate-800 to-slate-900",
   },
